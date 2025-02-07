@@ -1,9 +1,12 @@
 {
   "name": "video-call-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
-    "dev": "node server.js",
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -13,6 +16,6 @@
     "peer": "^0.6.1",
     "socket.io": "^4.6.0",
     "uuid": "^11.0.5",
-    "video-call-server": "file:../video-call-server"
+    "video-call-server": "file:"
   }
 }
